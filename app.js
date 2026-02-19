@@ -1,6 +1,8 @@
-const obj = require("./sum");
+// const obj = require("./sum");
 
-require("./sum");
+// require("./sum");
+
+import { calculate } from "./sum.js";
 const variable = "hello";
 console.log(variable);
 // var a =5;
@@ -8,4 +10,4 @@ console.log(variable);
 
 // obj.calculate(a,b);
 
-console.log(obj.calculate(5,6));
+console.log(calculate(5,6));

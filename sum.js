@@ -1,11 +1,11 @@
 const x="hello"
 
-function calculate (a,b){
+export function calculate (a,b){
     return a+b;
 
 }
 
-module.exports= {
-    x:x,
-    calculate:calculate,
-};
+// module.exports= {
+//     x:x,
+//     calculate:calculate,
+// };
