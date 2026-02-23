@@ -3,7 +3,7 @@
 // require("./sum");
 
 import { calculate } from "./sum.js";
-const variable = "hello";
+const variable = "hello   ";
 console.log(variable);
 // var a =5;
 // var b= 6;
